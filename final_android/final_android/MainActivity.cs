@@ -12,7 +12,14 @@ namespace final_android
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
-            // SetContentView (Resource.Layout.Main);
+            SetContentView (Resource.Layout.Main);
+            EditText etmail = FindViewById<EditText>(Resource.Id.etCorreo);
+            EditText etpassword = FindViewById<EditText>(Resource.Id.etContrasena);
+            Button btnIngresar = FindViewById<Button>(Resource.Id.btnLogin);
+            btnIngresar.Click += delegate {
+
+            };
+
         }
     }
 }
