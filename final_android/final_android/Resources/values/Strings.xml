@@ -2,4 +2,25 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">final_android</string>
+  
+    <string name="prompt_sexo">Seleccione Sexo</string>  
+    <string-array name="sexo_array">  
+    <item>Masculino</item>  
+    <item>Femenino</item>
+    </string-array>
+  
+  <string name="prompt_kilos">Seleccione Kilos a perder</string>
+  <string-array name="kilos_array">
+    <item>1 Kg</item>
+    <item>0.5 Kg</item>
+  </string-array>
+
+  <string name="prompt_frecuencia">Seleccione frecuencia ejercicio</string>
+  <string-array name="frecuencia_array">
+    <item>Poco o ningún ejercicio</item>
+    <item>Ejercicio ligero (1-3 días por semana)</item>
+    <item>Ejercicio Moderado (3-5 días por semana)</item>
+    <item>Ejercicio Fuerte (6 días por semana)</item>
+    <item>"Ejercicio profesional o extremo"</item>
+  </string-array>
 </resources>
