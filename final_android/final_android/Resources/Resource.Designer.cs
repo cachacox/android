@@ -63,6 +63,9 @@ namespace final_android
 			// aapt resource value: 0x7f050005
 			public const int btnLogin = 2131034117;
 			
+			// aapt resource value: 0x7f050006
+			public const int btnRegistrar = 2131034118;
+			
 			// aapt resource value: 0x7f050004
 			public const int etContrasena = 2131034116;
 			
